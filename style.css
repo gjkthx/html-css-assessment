@@ -1,0 +1,136 @@
+body{
+  font-family: 'Montserrat';
+}
+.navbar {
+  width: 100%;
+  height: 12vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  z-index: 2;
+  padding-top: 1vh;
+  font-family: 'Montserrat';
+}
+
+.naviconleft{
+  font-size: 2em;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  background-image: url("./img/1f354-Hamburger.100.png");
+  background-repeat: no-repeat;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: center;
+  display: flex;
+}
+
+.navtext {
+  font-size: 2em;
+  padding: 5px;
+  padding-top: 27px;
+  font-family: 'Montserrat';
+  display: none;
+}
+
+.naviconright{
+  font-size: 2em;
+  width: 4em;
+  height: 3em;
+  padding: 5px;
+  flex-direction: row;
+  display: flex;
+  padding-top: 27px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+
+}
+.naviconrightL{
+  font-size: 2em;
+  width: 48px;
+  height: 48px;
+  padding:10px;
+  background-image: url("./img/iconmonstr-twitter-1.png");
+  background-repeat: no-repeat;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+  display: flex;
+  padding-top: 27px;
+
+}
+.naviconrightR{
+  font-size: 2em;
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  background-image: url("./img/iconmonstr-facebook-1.png");
+  background-repeat: no-repeat;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+  display: flex;
+  padding-top: 27px;
+}
+
+h2{
+  margin: 0;
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  padding-top: 40vh;
+  font-family: 'Montserrat';vv
+}
+
+h3{
+  margin:0;
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+  padding-top: -25px;
+  font-family: 'Montserrat';
+}
+
+#picture {
+  background-image: url("./img/main-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 100vh;
+  margin-top: -13vh;
+  z-index: 1;
+
+}
+
+.foot{
+  background-image: url("./img/iconmonstr-arrow-77-120.png");
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  justify-content: center;
+  padding-top: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22vh;
+
+}
+@media only screen and (min-width: 600px){
+  .naviconright{
+    display: none;
+  }
+  .naviconleft{
+    display: none;
+  }
+  .navtext{
+    display: flex;
+  }
+}
+/*@media screen and (max-width: 600px){
+
+}*/
